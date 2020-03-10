@@ -1,10 +1,12 @@
 clear
 echo $red "============================================================"
+echo
 echo "1.)INI PW TOOLS BINGKU TUAN:BING"
 echo "0.)KELUAR"
-read -p "SILAHKAN KELUAR :" BING
+echo
+read -p "pilihmana tuan:" bro
 
-if [ $BING = 0 ] || [ $BING = 0 ]
+if [ $bro = 0 ] || [ $bro = 0 ]
 then 
 clear
 ls
